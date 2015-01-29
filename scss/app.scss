@@ -1,0 +1,155 @@
+@import "settings";
+@import "foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.hero-bg{
+  background: url(../img/Burgess-classroom1930s-tw.jpg) no-repeat center;
+  height: 300px;
+  max-width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.intro-text {
+ font-size: 40px;
+ color: #fff;
+ text-align: center;
+ margin-top: 15%;
+}
+
+.parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
+ position : relative;
+ height : 50vh;
+ text-indent : -9999px !important;
+ background-attachment : fixed;
+ background-position   : top center;
+ background-size       : cover;
+
+ &:nth-child( 2n ) {
+  box-shadow : inset 0 0 1em #111;
+ }
+}
+
+.bg__foo, .bg__bazz {height : 100vh;}
+
+.bg__foo {background-image : url(http://www.eureka.edu/d-l/ec-bell-fb.jpg);}
+
+.bg__bar {background-image : url(http://www.eureka.edu/d-l/ec_sign960.jpg);}
+
+.bg__baz {background-image : url(http://www.eureka.edu/d-l/lightpost_signs.jpg);}
+
+.bg__bazz {background-image : url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg);}
+
+.bg__break {background-image : url(http://www.eureka.edu/d-l/ec-signs.jpg); padding:2em; height: 50vh;}
+
+.capture {
+ float : right;
+ width : 200px;
+ padding : 1em;
+ margin  : -1.5em 1em 0 0;
+ text-indent : 0;
+ background : rgba( #f3f3f3, 0.75 );
+ box-shadow : 0 1px 0.125em #333;
+}
+
+article {
+ .container {width : 600px;
+  margin : 0 auto;}
+  header {position : relative;
+   margin : -5em 0 0 0;
+   padding : 1em;
+   text-align : left;
+   font-size : 2em;
+   color : #333;
+   background-color : rgba( #cc9900, 0.75 );}
+   p {padding : 1em !important;}
+   h1, h2 {margin : 0 0 0.333em;}
+
+   section {padding : 3em;
+    &.parallax {margin  : 0; padding : 0; }
+   }
+  }
+
+  a {
+   &, &:visited, &:active {color : #f66; }
+  }
+
+  .container p {padding: 0;}
+
+  .one {background-color: #FFF; padding: 1em; padding-top:1.5em;}
+
+  /* ======================== TABLET STYLING ========================== */
+
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px) {
+   /* Styles */
+
+   .hero-bg {
+    height: 500px;
+    max-width: 100%;
+   }
+
+  }
+
+  /* iPads (landscape) ----------- */
+  @media only screen
+  and (min-device-width : 768px)
+  and (max-device-width : 1024px)
+  and (orientation : landscape) {
+   /* Styles */
+   .header-image-bg {
+    height: 500px;
+    max-width: 100%;
+   }
+
+  }
+  /* ======================== DESKTOP STYLING ========================== */
+
+  /* Desktops and laptops ----------- */
+  @media only screen and (min-width : 1025px) {
+   /* Styles */
+
+   .hero-bg {height: auto;}
+  }
