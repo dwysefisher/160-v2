@@ -60,20 +60,24 @@
 
 .parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
  position : relative;
- height : 50vh;
+ height : 35vh;
  text-indent : -9999px !important;
  background-attachment : fixed;
  background-position   : top center;
- background-size       : cover;
+ background-repeat: no-repeat;
+ -webkit-background-size: contain;
+ -moz-background-size: contain;
+ -o-background-size: contain;
+ background-size: contain;
 
  &:nth-child( 2n ) {
   box-shadow : inset 0 0 1em #111;
  }
 }
 
-.bg__foo, .bg__bazz {height : 100vh;}
+.bg__foo, .bg__bazz {height : auto;}
 
-.bg__foo {background-image : url(http://www.eureka.edu/d-l/ec-bell-fb.jpg);}
+.bg__foo {background : url(../img/Eureka-charter-bg.jpg) 50em center;}
 
 .bg__bar {background-image : url(http://www.eureka.edu/d-l/ec_sign960.jpg);}
 
@@ -81,7 +85,7 @@
 
 .bg__bazz {background-image : url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg);}
 
-.bg__break {background-image : url(http://www.eureka.edu/d-l/ec-signs.jpg); padding:2em; height: 50vh;}
+.bg__break {background-image : url(http://www.eureka.edu/d-l/ec_signs.jpg); padding:2em; height: 50vh;}
 
 .capture {
  float : right;
@@ -151,4 +155,16 @@ article {
    /* Styles */
 
    .hero-bg {height: auto;}
+
+   .parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
+    position : relative;
+    height : 50vh;
+    text-indent : -9999px !important;
+    background-attachment : fixed;
+    background-position   : top center;
+    background-size       : cover;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;}
   }
