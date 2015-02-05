@@ -6124,7 +6124,7 @@ th.hide-for-touch {
   height: auto; }
 
 .bg__foo {
-  background: url(../img/Eureka-charter-bg.jpg) 50em center; }
+  background: url(../img/Eureka-charter-bg.jpg) center; }
 
 .bg__bar {
   background-image: url(http://www.eureka.edu/d-l/ec_sign960.jpg); }
