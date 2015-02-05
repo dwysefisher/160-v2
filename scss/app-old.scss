@@ -58,7 +58,7 @@
  margin-top: 15%;
 }
 
-/*.parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
+.parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
  position : relative;
  height : 35vh;
  text-indent : -9999px !important;
@@ -86,7 +86,6 @@
 .bg__bazz {background-image : url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg);}
 
 .bg__break {background-image : url(http://www.eureka.edu/d-l/ec_signs.jpg); padding:2em; height: 50vh;}
-*/
 
 .capture {
  float : right;
@@ -157,7 +156,7 @@ article {
 
    .hero-bg {height: auto;}
 
- /*  .parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
+   .parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
     position : relative;
     height : 50vh;
     text-indent : -9999px !important;
@@ -167,5 +166,5 @@ article {
     -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: cover;}*/
+   background-size: cover;}
   }
