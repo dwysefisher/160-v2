@@ -6095,18 +6095,37 @@ th.hide-for-touch {
   max-width: 100%;
   padding: 2em;
   margin: 0 auto;
+  margin-bottom: 2em !important;
+  text-indent: -9999px !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
-.logo {
-  max-height: 90%; }
+.hero-one {
+  background: url(../img/Eureka-charter-bg.jpg) no-repeat center;
+  height: 300px;
+  max-width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  text-indent: -9999px !important;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain; }
 
-/*.parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
- position : relative;
+.logo {
+  max-height: 90%;
+  position: top;
+  margin-top: -5em; }
+
+.main-title h1 {
+  line-height: 100%; }
+
+/*.bg__foo, .bg__bar, .bg__baz, .bg__bazz {
  height : 35vh;
  text-indent : -9999px !important;
+ position : relative;
  background-attachment : fixed;
  background-position   : top center;
  background-repeat: no-repeat;
@@ -6119,26 +6138,17 @@ th.hide-for-touch {
   box-shadow : inset 0 0 1em #111;
  }
 }*/
-.bg__foo, .bg__bazz {
-  height: auto; }
+/*.bg__foo, .bg__bazz {height : auto;}
 
-.bg__foo {
-  background: url(../img/Eureka-charter-bg.jpg) center; }
+.bg__foo {background : url(../img/Eureka-charter-bg.jpg) center;}
 
-.bg__bar {
-  background-image: url(http://www.eureka.edu/d-l/ec_sign960.jpg); }
+.bg__bar {background-image : url(http://www.eureka.edu/d-l/ec_sign960.jpg);}
 
-.bg__baz {
-  background-image: url(http://www.eureka.edu/d-l/lightpost_signs.jpg); }
+.bg__baz {background-image : url(http://www.eureka.edu/d-l/lightpost_signs.jpg);}
 
-.bg__bazz {
-  background-image: url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg); }
+.bg__bazz {background-image : url(http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg);}
 
-.bg__break {
-  background-image: url(http://www.eureka.edu/d-l/ec_signs.jpg);
-  padding: 2em;
-  height: 50vh; }
-
+.bg__break {background-image : url(http://www.eureka.edu/d-l/ec_signs.jpg); padding:2em; height: 50vh;}*/
 .capture {
   float: right;
   width: 200px;
@@ -6197,7 +6207,24 @@ a, a:visited, a:active {
 @media only screen and (min-width: 1025px) {
   /* Styles */
   .hero-bg {
-    height: auto; }
+    height: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-bottom: 2em; }
+
+  .main-title {
+    margin: 2em auto; }
+
+  .main-title h1 {
+    font-size: 4rem; }
+
+  .hero-one {
+    max-width: 100%;
+    height: 600px;
+    background-size: 100%; }
 
   /*  .parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
      position : relative;
