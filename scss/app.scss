@@ -66,6 +66,47 @@
   background-size: contain;
 }
 
+.hero-two{
+  background: url(../img/Chapel-1870s.jpg) no-repeat center;
+  height: 300px;
+  max-width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  text-indent : -9999px !important;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.hero-three{
+  background: url(../img/early-ec-faculty.jpg) no-repeat center;
+  height: 300px;
+  max-width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  margin-top: 2em;
+  text-indent : -9999px !important;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.hero-four{
+  background: url(../img/Burgess-1898.jpg) no-repeat center;
+  height: 300px;
+  max-width: 100%;
+  padding: 2em;
+  margin: 0 auto;
+  margin-top: 2em;
+  text-indent : -9999px !important;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
 .logo {max-height: 90%; position: top; margin-top: -5em;}
 
 .main-title h1 {line-height: 100%;}
@@ -180,21 +221,11 @@ article {
 
    .main-title h1 {font-size: 4rem;}
 
-   .hero-one{
+   .hero-one, .hero-two, .hero-three, .hero-four {
     max-width: 100%;
     height: 600px;
     background-size: 100%;
+    margin-bottom: 2em;
    }
 
- /*  .parallax .bg__foo, .bg__bar, .bg__baz, .bg__bazz {
-    position : relative;
-    height : 50vh;
-    text-indent : -9999px !important;
-    background-attachment : fixed;
-    background-position   : top center;
-    background-size       : cover;
-    -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;}*/
   }

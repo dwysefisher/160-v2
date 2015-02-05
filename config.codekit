@@ -3566,6 +3566,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/Burgess-1898.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103195,
+		"inputAbbreviatedPath": "\/img\/Burgess-1898.jpg",
+		"outputAbbreviatedPath": "\/img\/Burgess-1898.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Burgess-classroom1930s-tw.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3573,6 +3584,39 @@
 		"initialSize": 167201,
 		"inputAbbreviatedPath": "\/img\/Burgess-classroom1930s-tw.jpg",
 		"outputAbbreviatedPath": "\/img\/Burgess-classroom1930s-tw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/campus-1890s.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 286701,
+		"inputAbbreviatedPath": "\/img\/campus-1890s.jpg",
+		"outputAbbreviatedPath": "\/img\/campus-1890s.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Chapel-1870s.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 256182,
+		"inputAbbreviatedPath": "\/img\/Chapel-1870s.jpg",
+		"outputAbbreviatedPath": "\/img\/Chapel-1870s.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/early-ec-faculty.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124764,
+		"inputAbbreviatedPath": "\/img\/early-ec-faculty.jpg",
+		"outputAbbreviatedPath": "\/img\/early-ec-faculty.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
