@@ -3548,6 +3548,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/css\/app-old.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/app-old.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/app-old2.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3565,6 +3574,26 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/css\/foundation-icons.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/foundation-icons.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/606600A07014D3D.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56662,
+		"inputAbbreviatedPath": "\/img\/606600A07014D3D.png",
+		"outputAbbreviatedPath": "\/img\/606600A07014D3D.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/img\/Burgess-1898.jpg": {
 		"fileType": 16384,
@@ -3628,6 +3657,138 @@
 		"initialSize": 140639,
 		"inputAbbreviatedPath": "\/img\/Eureka-charter-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/Eureka-charter-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137707,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-01.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118103,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-02.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 113191,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-03.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115708,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-04.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87285,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-05.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120910,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-06.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 116882,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-07.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86379,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-08.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86659,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-09.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104646,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-10.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63393,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-11.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/instagram\/instagram-12.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173669,
+		"inputAbbreviatedPath": "\/img\/instagram\/instagram-12.jpg",
+		"outputAbbreviatedPath": "\/img\/instagram\/instagram-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
