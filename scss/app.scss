@@ -137,6 +137,17 @@ img:last-of-type {
    z-index: -100;
 }
 
+#title2 {
+  background-image: url("http://placekitten.com/1000/500");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position   : top center;
+   -webkit-background-size: contain;
+   -moz-background-size: contain;
+   -o-background-size: contain;
+   background-size: cover;
+}
+
 #slide1:before {
   /*background-image: url(../img/Eureka-charter-bg.jpg);*/
   background: #c9c9c9;
@@ -152,6 +163,9 @@ img:last-of-type {
 }
 
 #slide2 {
+ background: #c9c9c9;
+ padding: 10vh;
+ transform: translateZ(-1px) scale(2);
   background-image: url("http://www.eureka.edu/d-l/lightpost_signs.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -161,9 +175,26 @@ img:last-of-type {
   background-size: cover;
 }
 
+#title3 {
+  background-image: url("http://placekitten.com/1000/400");
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-position   : top center;
+   -webkit-background-size: contain;
+   -moz-background-size: contain;
+   -o-background-size: contain;
+   background-size: cover;
+}
+
 #slide3:before {
   background-image: url("http://www.eureka.edu/d-l/SandersHall-interior-stairwell-web.jpg");
   transform: translateZ(-1px) scale(2);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
   z-index:-1;
 }
 
