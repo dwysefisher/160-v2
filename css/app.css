@@ -6126,10 +6126,11 @@ th.hide-for-touch {
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-}*/
-img:last-of-type {
-  transform: translateZ(0.4px) scale(0.6) translateX(-104%) translateY(-40%) rotate(-5deg); }
+}
 
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}*/
 .slide:before {
   content: "";
   position: absolute;
@@ -6154,7 +6155,8 @@ img:last-of-type {
   margin-right: 0; }
 
 .slide, .slide:before {
-  background: 50% 50% / cover; }
+  background: 50% 50% / contain;
+  background-repeat: no-repeat; }
 
 .header {
   text-align: center;
