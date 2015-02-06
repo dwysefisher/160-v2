@@ -121,6 +121,7 @@ p {font-size: 1.25rem;}
 
   .white {color: #fff;}
 
+
   /* ======================== TABLET STYLING ========================== */
 
   @media only screen
@@ -184,5 +185,7 @@ p {font-size: 1.25rem;}
     background-size: 100%;
     margin-bottom: 2em;
    }
+
+   figure {padding: 0;}
 
   }

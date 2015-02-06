@@ -3639,6 +3639,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/Campus1870s.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 226415,
+		"inputAbbreviatedPath": "\/img\/Campus1870s.jpg",
+		"outputAbbreviatedPath": "\/img\/Campus1870s.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cdorsey-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73933,
+		"inputAbbreviatedPath": "\/img\/cdorsey-web.jpg",
+		"outputAbbreviatedPath": "\/img\/cdorsey-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/Chapel-1870s.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3804,6 +3826,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/profile-bmajor-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73733,
+		"inputAbbreviatedPath": "\/img\/profile-bmajor-web.jpg",
+		"outputAbbreviatedPath": "\/img\/profile-bmajor-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile-bradford1875-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75384,
+		"inputAbbreviatedPath": "\/img\/profile-bradford1875-web.jpg",
+		"outputAbbreviatedPath": "\/img\/profile-bradford1875-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile-ddweese-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87878,
+		"inputAbbreviatedPath": "\/img\/profile-ddweese-web.jpg",
+		"outputAbbreviatedPath": "\/img\/profile-ddweese-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profile-edickinson-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81045,
+		"inputAbbreviatedPath": "\/img\/profile-edickinson-web.jpg",
+		"outputAbbreviatedPath": "\/img\/profile-edickinson-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index-old.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -3921,7 +3987,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "DT",
+"lastSavedByUser": "Dustin Wyse-Fisher",
 "manualImportLinks": {
 	},
 "projectAttributes": {
