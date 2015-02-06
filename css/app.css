@@ -6106,8 +6106,7 @@ a, a:visited, a:active {
   -o-background-size: cover;
   background-size: cover; }
 
-.hero-one {
-  background: url(../img/Eureka-charter-bg.jpg) no-repeat center;
+.hero-one, .hero-two, .hero-three, .hero-four, .hero-five {
   height: 300px;
   max-width: 100%;
   padding: 2em;
@@ -6116,45 +6115,22 @@ a, a:visited, a:active {
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
-  background-size: contain; }
+  background-size: contain !important; }
+
+.hero-one {
+  background: url(../img/Eureka-charter-bg.jpg) no-repeat center; }
 
 .hero-two {
-  background: url(../img/Chapel-1870s.jpg) no-repeat center;
-  height: 300px;
-  max-width: 100%;
-  padding: 2em;
-  margin: 0 auto;
-  text-indent: -9999px !important;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  background: url(../img/Chapel-1870s.jpg) no-repeat center; }
 
 .hero-three {
-  background: url(../img/early-ec-faculty.jpg) no-repeat center;
-  height: 300px;
-  max-width: 100%;
-  padding: 2em;
-  margin: 0 auto;
-  margin-top: 2em;
-  text-indent: -9999px !important;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  background: url(../img/early-ec-faculty.jpg) no-repeat center; }
 
 .hero-four {
-  background: url(../img/Burgess-1898.jpg) no-repeat center;
-  height: 300px;
-  max-width: 100%;
-  padding: 2em;
-  margin: 0 auto;
-  margin-top: 2em;
-  text-indent: -9999px !important;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain; }
+  background: url(../img/Burgess-1898.jpg) no-repeat center; }
+
+.hero-five {
+  background: url(../img/Burgess-1898.jpg) no-repeat center; }
 
 .logo {
   max-height: 90%;
@@ -6203,14 +6179,28 @@ a, a:visited, a:active {
 /* ======================== TABLET STYLING ========================== */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* Styles */
+  p {
+    font-size: 1.25rem;
+    padding: 0 2em; }
+
   .hero-bg {
-    height: 500px;
-    max-width: 100%; } }
+    height: auto;
+    max-width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+
+  .hero-one, .hero-two, .hero-three, .hero-four, .hero-five {
+    max-width: 100%;
+    height: 600px;
+    background-size: 100%;
+    margin-bottom: 2em; } }
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   /* Styles */
   .header-image-bg {
-    height: 500px;
+    height: auto;
     max-width: 100%; } }
 /* ======================== DESKTOP STYLING ========================== */
 /* Desktops and laptops ----------- */
@@ -6231,7 +6221,7 @@ a, a:visited, a:active {
   .main-title h1 {
     font-size: 4rem; }
 
-  .hero-one, .hero-two, .hero-three, .hero-four {
+  .hero-one, .hero-two, .hero-three, .hero-four, .hero-five {
     max-width: 100%;
     height: 600px;
     background-size: 100%;
