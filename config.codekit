@@ -3584,6 +3584,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/1975e-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 104398,
+		"inputAbbreviatedPath": "\/img\/1975e-web.jpg",
+		"outputAbbreviatedPath": "\/img\/1975e-web.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/606600A07014D3D.png": {
 		"fileType": 32768,
 		"ignore": 0,
