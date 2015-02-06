@@ -6089,6 +6089,13 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+body {
+  font-variant-numeric: oldstyle-nums;
+  -moz-font-feature-settings: "onum";
+  -ms-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum"; }
+
 a, a:visited, a:active {
   color: #990033 !important;
   font-weight: bold; }
@@ -6110,7 +6117,7 @@ a, a:visited, a:active {
   height: 300px;
   max-width: 100%;
   padding: 2em;
-  margin: 0 auto;
+  margin: 1em auto 1.5em;
   text-indent: -9999px !important;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -6133,7 +6140,7 @@ a, a:visited, a:active {
   background: url(../img/Burgess-1898.jpg) no-repeat center; }
 
 .logo {
-  max-height: 90%;
+  max-height: 80%;
   position: top;
   margin-top: -5em;
   text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4); }
