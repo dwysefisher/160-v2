@@ -47,6 +47,11 @@ body {
   font-feature-settings: "onum";
 }
 
+.full-grid {
+  padding-left: 0 !important;
+  padding-right: 0rem !important;
+}
+
 a, a:visited, a:active {
 color: #990033 !important;
 font-weight: bold;}
@@ -60,6 +65,19 @@ p {font-size: 1.25rem;}
   padding: 2em;
   margin: 0 auto;
   margin-bottom: 2em !important;
+  text-indent : -9999px !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero-bg-new{
+  background: url(../img/Burgess-classroom1930s-tw.jpg) no-repeat center;
+  height: 100%;
+  max-width: 100%;
+  padding: 2em;
+  margin: 0 auto;
   text-indent : -9999px !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
