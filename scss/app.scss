@@ -72,17 +72,21 @@ p {font-size: 1.25rem;}
   background-size: cover;
 }
 
-.hero-bg-new{
+.hero-bg-new {
   background: url(../img/Burgess-classroom1930s-tw.jpg) no-repeat center;
   height: 100%;
   max-width: 100%;
   padding: 2em;
   margin: 0 auto;
-  text-indent : -9999px !important;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.hero-bg-new h1 {
+ text-indent : -9999px !important;
+
 }
 
 .hero-one, .hero-two, .hero-three, .hero-four, .hero-five {
@@ -152,7 +156,12 @@ p {font-size: 1.25rem;}
    color: $silver !important;
   }
 
-  /* ======================== TABLET STYLING ========================== */
+  // ======================== Buttons ==========================
+  .home-button-group li a {
+   color: #fff !important;
+  }
+
+  /* =================== TABLET STYLING =================== */
 
   @media only screen
   and (min-device-width : 768px)
@@ -160,6 +169,14 @@ p {font-size: 1.25rem;}
    /* Styles */
 
    p {font-size: 1.25rem; padding: 0 2em;}
+
+   .hero-bg-new {
+     height: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
 
    .hero-bg {
     height: auto;
@@ -177,6 +194,11 @@ p {font-size: 1.25rem;}
     margin-bottom: 2em;
    }
 
+   /*.home-button-group {
+    position: relative;
+    left:11em;
+   }*/
+
   }
 
   /* iPads (landscape) ----------- */
@@ -190,7 +212,7 @@ p {font-size: 1.25rem;}
     max-width: 100%;
    }
   }
-  /* ======================== DESKTOP STYLING ========================== */
+  /* ================= DESKTOP STYLING ==================== */
 
   /* Desktops and laptops ----------- */
   @media only screen and (min-width : 1025px) {
@@ -205,6 +227,14 @@ p {font-size: 1.25rem;}
    background-size: cover;
    margin-bottom: 2em;}
 
+   .hero-bg-new {
+     height: 100%;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+   }
+
    .main-title {margin: 2em auto;}
 
    .main-title h1 {font-size: 4rem;}
@@ -217,5 +247,10 @@ p {font-size: 1.25rem;}
    }
 
    figure {padding: 0;}
+
+   /*.home-button-group {
+    position: relative;
+    left:11em;
+   }*/
 
   }
