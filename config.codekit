@@ -20,6 +20,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/_partials\/blog-sidebar.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_partials\/blog-sidebar.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_partials\/blog-sidebar.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_partials\/blog-sidebar.kit",
+		"outputAbbreviatedPath": "\/_partials\/blog-sidebar.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_partials\/top-nav.kit": {
 		"fileType": 2048,
 		"ignore": 1,
