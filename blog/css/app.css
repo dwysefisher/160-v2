@@ -59,8 +59,8 @@ body {
   color: #222;
   padding: 0;
   margin: 0;
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-weight: normal;
+  font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-weight: 300;
   font-style: normal;
   line-height: 1.5;
   position: relative;
@@ -1158,7 +1158,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+      font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1525,54 +1525,7 @@ select {
       clear: none; }
     .large-block-grid-12 > li:nth-of-type(12n+1) {
       clear: both; } }
-.breadcrumbs {
-  display: block;
-  padding: 0.5625rem 0.875rem 0.5625rem;
-  overflow: hidden;
-  margin-left: 0;
-  list-style: none;
-  border-style: solid;
-  border-width: 1px;
-  background-color: #ffdd75;
-  border-color: #ffd350;
-  border-radius: 3px; }
-  .breadcrumbs > * {
-    margin: 0;
-    float: left;
-    font-size: 0.6875rem;
-    line-height: 0.6875rem;
-    text-transform: uppercase;
-    color: #555555; }
-    .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
-      text-decoration: underline; }
-    .breadcrumbs > * a {
-      color: #555555; }
-    .breadcrumbs > *.current {
-      cursor: default;
-      color: #333333; }
-      .breadcrumbs > *.current a {
-        cursor: default;
-        color: #333333; }
-      .breadcrumbs > *.current:hover, .breadcrumbs > *.current:hover a, .breadcrumbs > *.current:focus, .breadcrumbs > *.current:focus a {
-        text-decoration: none; }
-    .breadcrumbs > *.unavailable {
-      color: #999999; }
-      .breadcrumbs > *.unavailable a {
-        color: #999999; }
-      .breadcrumbs > *.unavailable:hover, .breadcrumbs > *.unavailable:hover a, .breadcrumbs > *.unavailable:focus,
-      .breadcrumbs > *.unavailable a:focus {
-        text-decoration: none;
-        color: #999999;
-        cursor: default; }
-    .breadcrumbs > *:before {
-      content: "/";
-      color: #AAAAAA;
-      margin: 0 0.75rem;
-      position: relative;
-      top: 1px; }
-    .breadcrumbs > *:first-child:before {
-      content: " ";
-      margin: 0; }
+
 
 /* Accessibility - hides the forward slash */
 [aria-label="breadcrumbs"] [aria-hidden="true"]:after {
@@ -1582,7 +1535,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "chaparral-pro", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "Merriweather", "Georgia", serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2830,7 +2783,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3261,7 +3214,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3644,7 +3597,7 @@ ul.pagination {
     color: #EEEEEE;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif; }
+    font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
     padding: 0.9375rem 1.25rem;
@@ -3652,7 +3605,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif; }
+    font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif; }
   .pricing-table .description {
     background-color: #FFFFFF;
     padding: 0.9375rem;
@@ -3923,7 +3876,7 @@ dialog {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif; }
+  font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -3939,7 +3892,7 @@ dialog {
     .side-nav li.active > a:first-child:not(.button) {
       color: #888888;
       font-weight: normal;
-      font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif; }
+      font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -4049,7 +4002,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0;
-    font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+    font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4238,7 +4191,7 @@ table {
       background-color: #EFEFEF;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+      font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -4537,12 +4490,12 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       padding: 12px 0 12px 0;
       padding-left: 0.9375rem;
-      font-family: "adobe-garamond-pro", Georgia, Cambria, "Times New Roman", Times, serif;
-      font-size: 0.8125rem;
+      font-family: "merriweather", Georgia, Cambria, "Times New Roman", Times, serif;
+      font-size: 0.75rem;
       font-weight: normal;
       text-transform: none; }
       .top-bar-section ul li > a.button {
-        font-size: 0.8125rem;
+        font-size: 0.75rem;
         padding-right: 0.9375rem;
         padding-left: 0.9375rem;
         background-color: #555555;
@@ -4585,7 +4538,7 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li > a.button.warning:hover, .top-bar-section ul li > a.button.warning:focus {
           color: #FFFFFF; }
     .top-bar-section ul li > button {
-      font-size: 0.8125rem;
+      font-size: 0.75rem;
       padding-right: 0.9375rem;
       padding-left: 0.9375rem;
       background-color: #555555;
@@ -4729,7 +4682,7 @@ meta.foundation-mq-topbar {
     .top-bar input,
     .top-bar .button,
     .top-bar button {
-      font-size: 0.875rem;
+      font-size: 0.75rem;
       position: relative;
       height: 1.75rem;
       top: 0.53125rem; }
@@ -5057,7 +5010,7 @@ a {
 /* Default paragraph styles */
 p {
   font-family: inherit;
-  font-weight: normal;
+  font-weight: 300;
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 1.25rem;
@@ -5072,7 +5025,7 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "chaparral-pro", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: "merriweather", Georgia, serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
@@ -5131,7 +5084,7 @@ b {
 .small,
 small {
   font-size: 75% !important;
-  line-height: 0.75 !important; }
+  line-height: 0.9 !important; }
 
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -5154,7 +5107,7 @@ dl {
   font-family: inherit; }
 
 ul {
-  margin-left: 1.1rem; }
+  margin-left: 1.25rem; }
   ul.no-bullet {
     margin-left: 0; }
     ul.no-bullet li ul,
@@ -6095,6 +6048,7 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+
 body {
   font-variant-numeric: oldstyle-nums;
   -moz-font-feature-settings: "onum";
@@ -6111,7 +6065,7 @@ a, a:visited, a:active {
   font-weight: bold; }
 
 p {
-  font-size: 1.25rem; }
+  font-size: 1.125rem; }
 
 .hero-bg {
   background: url(../img/Burgess-classroom1930s-tw.jpg) no-repeat center;
@@ -6190,8 +6144,8 @@ footer {
   height: auto;
   min-height: 10em;
   margin-top: 2em;
-  padding-top: 2em;
-  text-align: center;
+  padding: 2em 0 5em;
+  text-align: left;
   background-color: #cc9900;
   background-color: rgba(204, 153, 0, 0.6); }
 
@@ -6208,6 +6162,12 @@ footer {
 
 .blog-title {
   margin-bottom: 1rem; }
+
+.caption {
+ font-size: 0.8rem;
+ font-family: "merriweather", Georgia, serif !important;
+ color: #808080;
+}
 
 .one {
   background-color: WhiteSmoke;
@@ -6232,8 +6192,8 @@ footer {
 .top-bar-section a {
   background-color: #cc9900 !important;
   color: #FFFFFF !important;
-  font-family: "chaparral-pro", "Helvetica", Helvetica, Arial, sans-serif !important;
-  font-size: 1.2rem !important; }
+  font-family: "merriweather", Georgia, serif, !important;
+  font-size: 1rem !important; }
 
 .top-bar-section a:hover {
   color: #EFEFEF !important; }
@@ -6282,6 +6242,7 @@ footer {
   .header-image-bg {
     height: auto;
     max-width: 100%; } }
+
 /* ================= DESKTOP STYLING ==================== */
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1025px) {
@@ -6326,4 +6287,10 @@ footer {
 
   .footer-logo {
     height: 75%;
-    width: 75%; } }
+    width: 75%; }
+
+  .about {
+   padding-right: 2rem;
+  }
+
+}
